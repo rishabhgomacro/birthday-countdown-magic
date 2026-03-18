@@ -10,9 +10,7 @@ import birthdayBg from "@/assets/birthday-bg.jpg";
 const BIRTHDAY_DATE = new Date("2026-03-18T18:30:00.000Z");
 
 const Index = () => {
-  const [isBirthday, setIsBirthday] = useState(
-    () => new Date() >= BIRTHDAY_DATE
-  );
+  const [isBirthday, setIsBirthday] = useState(true); // TEMP: preview birthday view
 
   const handleCountdownComplete = useCallback(() => {
     setIsBirthday(true);
