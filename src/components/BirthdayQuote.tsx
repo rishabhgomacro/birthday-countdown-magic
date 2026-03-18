@@ -17,7 +17,7 @@ const BirthdayQuote = () => {
         </p>
 
         <p className="mt-6 font-display text-lg md:text-xl text-gradient-pink font-semibold">
-          Here's to another year of being absolutely wonderful. ✨
+          Here's to another year of being absolutely wonderful, Anuradha. ✨
         </p>
 
         <div className="mt-8 flex items-center justify-center gap-3">

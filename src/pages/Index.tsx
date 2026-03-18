@@ -7,10 +7,12 @@ import BirthdayQuote from "@/components/BirthdayQuote";
 import birthdayBg from "@/assets/birthday-bg.jpg";
 
 // March 19, 2026 00:00:00 IST (UTC+5:30) = March 18, 2026 18:30:00 UTC
+// If You're Reading This, You really have deep dived, Anuradha!
+// Don't Forget to Call me !!!
 const BIRTHDAY_DATE = new Date("2026-03-18T18:30:00.000Z");
 
 const Index = () => {
-  const [isBirthday, setIsBirthday] = useState(false);
+  const [isBirthday, setIsBirthday] = useState(false); // TEMP: preview birthday view
 
   const handleCountdownComplete = useCallback(() => {
     setIsBirthday(true);
@@ -33,7 +35,7 @@ const Index = () => {
               <span className="text-6xl md:text-8xl">🎁</span>
             </div>
             <h1 className="font-display text-4xl md:text-6xl font-bold text-gradient-pink text-center animate-slide-up">
-              A Special Day Awaits
+              A Special Day Awaits, Anuradha
             </h1>
             <CountdownTimer
               targetDate={BIRTHDAY_DATE}

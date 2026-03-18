@@ -1,11 +1,11 @@
 import { useState, useEffect, useCallback } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 
-import portrait1 from "@/assets/portrait-1.jpg";
-import portrait2 from "@/assets/portrait-2.jpg";
-import portrait3 from "@/assets/portrait-3.jpg";
-import portrait4 from "@/assets/portrait-4.jpg";
-import portrait5 from "@/assets/portrait-5.jpg";
+import portrait1 from "@/assets/portrait-1.jpeg";
+import portrait2 from "@/assets/portrait-2.jpeg";
+import portrait3 from "@/assets/portrait-3.jpeg";
+import portrait4 from "@/assets/portrait-4.jpeg";
+import portrait5 from "@/assets/portrait-5.jpeg";
 
 const photos = [portrait1, portrait2, portrait3, portrait4, portrait5];
 
@@ -34,7 +34,7 @@ const BirthdayCarousel = () => {
   return (
     <div className="flex flex-col items-center gap-8 w-full max-w-lg mx-auto animate-slide-up">
       <h2 className="font-display text-3xl md:text-4xl text-gradient-pink font-semibold">
-        Happy Birthday! 🎂
+        Happy Birthday Anuradha! 🎂
       </h2>
 
       <div className="relative w-full aspect-[3/4] rounded-2xl overflow-hidden shadow-pink glow-pink">
